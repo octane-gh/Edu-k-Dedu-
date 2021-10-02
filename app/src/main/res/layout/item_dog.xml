@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="?android:attr/selectableItemBackground">
+
+
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="4sp"
+            tools:text="1"
+            android:textColor="@color/purple_200"
+            android:textSize="24sp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dog_name_item"
+                tools:text="Name Dog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"></TextView>
+
+            <TextView
+                android:id="@+id/breed_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Breed"
+                android:textColor="@color/black"
+                android:textSize="24sp"></TextView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="Name Male Dog"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
